@@ -1,6 +1,6 @@
 //your JS code here. If required.
 const table = document.getElementById('output');
-const loadingRow = document.getElementById('loadingRow');
+const loadingRow = document.getElementById('loading');
 
 const getRandomTime = () => Math.floor(Math.random() * 3000) + 1000; // Random time between 1 and 3 seconds
 
