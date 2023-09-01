@@ -13,14 +13,18 @@
 
   <body>
     <!-- the entire body must be written by student -->
-    <table class="table table-striped table-hover table-bordered">
+    <table id="myTable" class="table table-striped table-hover table-bordered">
       <thead>
         <tr>
           <th>Promise Name</th>
           <th>Time taken (s)</th>
         </tr>
       </thead>
-      <tbody id="output"></tbody>
+      <tbody id="output">
+		  <tr>
+            <th colspan="2" id="loadingRow">Loading...</th>
+	      </tr>
+	  </tbody>
     </table>
 
     <script type="text/javascript" src="./script.js"></script>
